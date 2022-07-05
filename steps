@@ -1,0 +1,13 @@
+1. [wsl --install] (powershell or cmd: run as administrator)
+2. [wsl --install -d UBUNTU]
+
+#To install Redis on WSL (ie. Ubuntu):
+
+1. Open your WSL terminal (ie. Ubuntu).
+2. Update your Ubuntu packages: sudo apt update
+3. Once the packages have updated, install Redis with: sudo apt install redis-server
+
+#Start
+
+1.  Open your WSL terminal (ie. Ubuntu) & redis-server
+2.  Open another WSL terminal (ie. Ubuntu) & run redis-cli
